@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,100;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: 0.2s linear;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.7rem 1.8rem;
+  font-size: 1rem;
+  cursor: pointer;
+  color: #fff;
+  background: #023e8a;
+  border-radius: 0.5rem;
+}
+.btn:hover {
+  background: #111D4A;
+}
+
+.login-form-container {
+  margin-top: 2rem;
+  margin-bottom: 10rem;
+  height: calc(100vh - 7.5rem);
+  background: #fff;
+  padding: 0 2rem;
+}
+.login-form-container h3 {
+  padding-bottom: 1rem;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  text-align: center;
+  color: #111D4A;
+}
+.login-form-container form {
+  margin: 2rem auto;
+  max-width: 40rem;
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.05);
+  border: 0.1rem solid rgba(0, 0, 0, 0.2);
+  padding: 2rem;
+  border-radius: 0.5rem;
+}
+.login-form-container form .box {
+  margin: 0.7rem 0;
+  border-radius: 0.5rem;
+  background: #f7f7f7;
+  padding: 1rem 1.2rem;
+  font-size: 1.6rem;
+  color: #111D4A;
+  text-transform: none;
+  width: 100%;
+}
+.login-form-container form .btn {
+  margin: 1rem 0;
+  width: 100%;
+}
+
+.result-form {
+  margin-top: 2rem;
+  height: calc(100vh - 2rem);
+  background: #fff;
+  padding: 0 2rem;
+}
+.result-form h3 {
+  padding-bottom: 1rem;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  text-align: center;
+  color: #111D4A;
+}
+.result-form article {
+  margin: 2rem auto;
+  max-width: 80rem;
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.05);
+  border: 0.1rem solid rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  border-radius: 0.5rem;
+}
+.result-form article .box {
+  margin: 0.7rem 0;
+  border-radius: 0.5rem;
+  background: #f7f7f7;
+  padding: 0.5rem 0.5rem;
+  width: 100%;
+}
+.result-form article .box p {
+  color: #111D4A;
+  font-size: 0.9rem;
+  padding: 1rem 1.2rem;
+}
+.result-form article .btn {
+  margin: 1rem 10rem;
+  text-align: center;
+}/*# sourceMappingURL=sytle.css.map */
